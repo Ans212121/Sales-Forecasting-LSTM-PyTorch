@@ -1,0 +1,1 @@
+Download train.csv and test.csv from https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data and place them here. Raw data is not redistributed. The public mirror used for verification is documented in DATA_CARD.md.

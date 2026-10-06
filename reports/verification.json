@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unit_tests_passed": 5,
+  "validation_rows": 15,
+  "forecast_rows": 15,
+  "metrics_recomputed": true,
+  "notebook_code_compiles": true,
+  "embedded_pipeline_matches_source": true,
+  "colab_ui_tested": false
+}

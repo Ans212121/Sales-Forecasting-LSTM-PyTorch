@@ -1,0 +1,18 @@
+project: Sales Forecasting with LSTM and PyTorch
+learner: Anas Ibrahim Al-Mutairi
+github: Ans212121
+academy: Tuwaiq Academy
+program: Deep Learning using PyTorch
+repository: https://github.com/Ans212121/pytorch
+notebook: notebooks/sales_forecasting_lstm.ipynb
+source_notebook: notebooks/source_sales_forecasting.ipynb
+requirements_mapping:
+  data_exploration: reports/historical_sales.png
+  preparation_and_sequences: src/forecast.py
+  pytorch_lstm_and_training: src/forecast.py
+  evaluation: reports/metrics.json
+  actual_vs_predicted: reports/validation_actual_vs_predicted.csv
+  visualization: reports/validation.png
+  future_forecasting: reports/next_15_days_sales_forecast.csv
+evidence_scope: automated verification run on real sales data
+official_kaggle_submission: false

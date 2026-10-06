@@ -1,0 +1,37 @@
+{
+  "status": "MEASURED_REAL_DATA",
+  "seed": 42,
+  "epochs": 30,
+  "device": "cpu",
+  "versions": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.1.3",
+    "pandas": "3.0.1"
+  },
+  "train_rows": 3000888,
+  "test_rows": 28512,
+  "daily_observations": 1688,
+  "missing_calendar_days_forward_filled": 4,
+  "lookback": 30,
+  "horizon": 15,
+  "validation_start": "2017-08-01",
+  "validation_end": "2017-08-15",
+  "metrics": {
+    "LSTM": {
+      "MAE": 86572.2026059788,
+      "RMSE": 110238.77129502338
+    },
+    "weekly_naive": {
+      "MAE": 100229.6640625,
+      "RMSE": 139177.3125
+    },
+    "last_value": {
+      "MAE": 113643.9765625,
+      "RMSE": 125349.59375
+    }
+  },
+  "raw_sha256": {
+    "train.csv": "99a1b7f4241821df10fa71f23abdd71c634f71f901e3cab1400c0f0c583f862c",
+    "test.csv": "087ec1ecec76dbba9ea2adb48b8b2fd527c7c59adb82b0dfb9f6f82739400d26"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "project": "Sales Forecasting LSTM PyTorch",
+  "learner": "Anas Ibrahim Al-Mutairi",
+  "github": "Ans212121",
+  "academy": "Tuwaiq Academy",
+  "evidence_status": "MEASURED_REAL_DATA",
+  "metrics": {
+    "LSTM": {
+      "MAE": 86572.2026059788,
+      "RMSE": 110238.77129502338
+    },
+    "weekly_naive": {
+      "MAE": 100229.6640625,
+      "RMSE": 139177.3125
+    },
+    "last_value": {
+      "MAE": 113643.9765625,
+      "RMSE": 125349.59375
+    }
+  },
+  "forecast_horizon": 15,
+  "official_kaggle_submission": false
+}
